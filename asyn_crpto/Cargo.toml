@@ -1,0 +1,15 @@
+[package]
+name = "asym_crpto"
+version = "0.1.0"
+edition = "2021"
+features=["pem"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+rand = "0.8.5"
+rsa = {version="0.8.1"}
+sha1 = "0.10.5"
+chrono = "0.4.23"
+base64 = "0.21.0"
+hex = "0.4.3"
